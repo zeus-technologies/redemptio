@@ -1,0 +1,12 @@
+[package]
+name = "redemptio"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flate2 = "1.0.33"
+serde = { version = "1.0.209", features = ["derive"] }
+tokio = { version = "1.39.3", features = ["full"] }
+toml = "0.8.19"
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
